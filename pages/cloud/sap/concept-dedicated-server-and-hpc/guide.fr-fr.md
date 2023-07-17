@@ -27,7 +27,7 @@ Si vous ne souhaitez pas utiliser OVHcloud Connect, un VPN point-à-point peut �
 
 ### Base de données SAP HANA
 
-La base de données SAP HANA est hébergée sur un serveur dédié de la gamme SAP HANA on Bare Metal (références HGR-SAP-1/2/3). Pour découvrir comment déployer une base de données SAP HANA sur un serveur dédié OVHcloud, nous vous conseillosn de vous référer à [notre documentation](/pages/cloud/sap/install-sap-hana-sles).
+La base de données SAP HANA est hébergée sur un serveur dédié de la gamme SAP HANA on Bare Metal (références HGR-SAP-1/2/3). Pour découvrir comment déployer une base de données SAP HANA sur un serveur dédié OVHcloud, nous vous conseillons de vous référer à [notre documentation](/pages/cloud/sap/install-sap-hana-sles).
 
 Pour garantir la restauration de la configuration de SAP HANA (fichiers INI), nous suggérons d'appliquer la valeur `true` pour le paramètre `include_configuration_backup`. Ce paramètre active la sauvegarde de tous les paramètres stockés dans les fichiers INI durant la sauvegarde des données de la base de données SAP HANA.
 
