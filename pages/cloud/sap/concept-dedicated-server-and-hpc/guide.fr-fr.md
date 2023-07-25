@@ -23,7 +23,7 @@ Ce concept vous permet de construire une infrastructure basée sur une base de d
 
 Afin de garantir la qualité de la liaison entre vos locaux et votre infrastructure SAP hébergée sur OVHcloud, nous recommandons d'utiliser OVHcloud Connect. Cette solution vous fournit un lien sécurisé et performant entre vos locaux et OVHcloud. Pour obtenir plus d'informations, veuillez vous référer à la [documentation OVHcloud Connect](https://www.ovhcloud.com/fr/network/ovhcloud-connect/).
 
-Si vous ne souhaitez pas utiliser OVHcloud Connect, un VPN point-à-point peut également être déployé avec NSX. Pour connaître les étapes de configuration d'une passerelle VPN NSX avec OVHcloud, veuillez vous référer à [notre documentation](/pages/cloud/private-cloud/nsx-12-configure-ipsec/).
+Si vous ne souhaitez pas utiliser OVHcloud Connect, un VPN point-à-point peut également être déployé avec NSX. Pour connaître les étapes de configuration d'une passerelle VPN NSX avec OVHcloud, veuillez vous référer à [notre documentation](/pages/cloud/private-cloud/nsx-12-configure-ipsec).
 
 ### Base de données SAP HANA
 
@@ -58,8 +58,8 @@ OVHcloud va bientôt fournir un agent Backint OVHcloud pour SAP HANA certifié, 
 
 OVHcloud Backint Agent for SAP HANA permet de tirer parti des avantages d'un Object Storage S3, comme la politique de rétention ou encore l'immutabilité. Pour en savoir plus sur OVHcloud Backint Agent for SAP HANA, nous vous recommandons nos guides :
 
-- [Installer et utiliser OVHcloud Backint Agent for SAP HANA](/pages/cloud/sap/cookbook-install-ovhcloud-backint-agent/)
-- [Utiliser OVHcloud Backint Agent avec plusieurs buckets Object Storage S3](/pages/cloud/sap/cookbook-configure-ovhcloud-backint-agent-several-buckets/)
+- [Installer et utiliser OVHcloud Backint Agent for SAP HANA](/pages/cloud/sap/cookbook-install-ovhcloud-backint-agent)
+- [Utiliser OVHcloud Backint Agent avec plusieurs buckets Object Storage S3](/pages/cloud/sap/cookbook-configure-ovhcloud-backint-agent-several-buckets)
 
 #### Système de fichiers
 
@@ -141,8 +141,8 @@ Pour garantir la continuité de la connexion avec le support SAP, nous recommand
 - [Installer Veeam Backup & Replication](/pages/cloud/storage/backup/veeam_veeam_backup_replication)
 - [Installer un SAProuter](https://support.sap.com/en/tools/connectivity-tools/saprouter/install-saprouter.html)
 - [Déployer un SAProuter avec NSX](/pages/cloud/sap/cookbook-vmware-saprouter)
-- [Installer et utiliser OVHcloud Backint Agent for SAP HANA](/pages/cloud/sap/cookbook-install-ovhcloud-backint-agent/)
-- [Utiliser OVHcloud Backint Agent avec plusieurs buckets Object Storage S3](/pages/cloud/sap/cookbook-configure-ovhcloud-backint-agent-several-buckets/)
+- [Installer et utiliser OVHcloud Backint Agent for SAP HANA](/pages/cloud/sap/cookbook-install-ovhcloud-backint-agent)
+- [Utiliser OVHcloud Backint Agent avec plusieurs buckets Object Storage S3](/pages/cloud/sap/cookbook-configure-ovhcloud-backint-agent-several-buckets)
 
 Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](https://www.ovhcloud.com/fr/professional-services/) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services. 
 
