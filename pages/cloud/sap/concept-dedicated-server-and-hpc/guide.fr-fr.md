@@ -1,7 +1,7 @@
 ---
 title: "SAP HANA on Bare Metal et serveurs d'application SAP sur VMware on OVHcloud"
 excerpt: "Cette page vous présente une architecture hybride utilisant un serveur dédié HGR-SAP et la solution VMware on OVHcloud"
-updated: 2023-07-17
+updated: 2023-07-25
 ---
 
 ## Objectif
@@ -39,7 +39,7 @@ Cette architecture vous prémunit d'une coupure de service causée par un incide
 
 ### Serveurs d'application SAP
 
-Les serveurs d'application SAP sont hébergés sur la solution VMware on OVHcloud. Nous conseillons de prendre connaissance de la [SAP Note 2161991](https://launchpad.support.sap.com/#/notes/2161991), particulièrement les chapitres 2 et 3, ainsi que la [SAP Note 2015392](https://launchpad.support.sap.com/#/notes/2015392) pour appliquer une configuration de vos machines virtuelles conforme.
+Les serveurs d'application SAP sont hébergés sur la solution VMware on OVHcloud. Nous conseillons de prendre connaissance de la [SAP Note 2161991](https://launchpad.support.sap.com/#/notes/2161991), particulièrement les chapitres 2 et 3, ainsi que la [SAP Note 2015392](https://launchpad.support.sap.com/#/notes/2015392) pour appliquer une configuration conforme de vos machines virtuelles.
 
 La fonctionnalité Fault Tolerance fournie par VMware garantie la disponibilité de vos serveurs d'application SAP en cas de défauts sur l'hôte ESXi. Votre machine virtuelle est automatiquement activée sur un autre membre du cluster VMware. Nous conseillons de l'activer pour vos machines virtuelles qui hébergent les SAP Central Services (SCS), si vous ne gérez pas un cluster SAP pour ce service d'une autre manière. Le Fault Tolerance peut également être activé sur vos serveurs d'application SAP hébergeant un service critique.
 Cependant, pour être en capacité d'activer le Fault Tolerance, la machine virtuelle ne peut excéder 8 vCPU et 128 GB de mémoire.
