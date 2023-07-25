@@ -54,7 +54,7 @@ We recommend using a S3 Object Storage bucket in a different OVHcloud location f
 
 #### SAP HANA database
 
-OVHcloud Backint Agent for SAP HANA allows to take advantage of a S3 Object Storage, like retention policy or immutable policy. To know more about OVHcloud Backint Agent for SAP HANA, we recommand our guides:
+OVHcloud Backint Agent for SAP HANA allows to take advantage of a S3 Object Storage, like retention policy or immutable policy. To know more about OVHcloud Backint Agent for SAP HANA, we recommend our guides:
 
 - [Install and use OVHcloud Backint Agent for SAP HANA](/pages/cloud/sap/cookbook-install-ovhcloud-backint-agent/)
 - [Use OVHcloud Backint Agent with several S3 Object Storage buckets](/pages/cloud/sap/cookbook-configure-ovhcloud-backint-agent-several-buckets/)
