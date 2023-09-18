@@ -1728,7 +1728,7 @@
             + [Routing an Additional IP](network/load_balancer/howto_route_ipfo)
             + [Working with HTTP routes](network/load_balancer/create_route)
             + [Working with probes](network/load_balancer/create_probes)
-    + [Content Delivery Network (CDN) Infrastructure](network-content-delivery-network-cdninfrastructure)
+    + [Content Delivery Network (CDN) Infrastructure](network-content-delivery-network-cdninfrastructure)
         + [Configuring a domain name for the first time](network/content_delivery_network_infrastructure/first_domain_name_configuration)
         + [Understanding quota on the CDN](network/content_delivery_network_infrastructure/quota)
         + [Adding an SSL certificate on the CDN](network/content_delivery_network_infrastructure/ssl_certificate)
